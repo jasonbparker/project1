@@ -1,0 +1,56 @@
+header div h1, header div p{
+color:white;
+background-color: rgb(4, 163, 163);
+text-align: center;
+font-family: fantasy;
+box-sizing: border-box;
+border-radius: 0px;
+width: 1000px;
+height: 50px;
+font-size: 25px;
+margin:10px;
+padding:5px;
+} /* most of my requirements were used here. Margin and padding are set very low because it 
+will look awkward if they are much bigger. font size is substantially bigger than everything else
+so that it adds emphasis to my name. 
+*/
+body{
+background-color: rgb(133, 150, 151);
+text-align: center;
+}
+.title{
+width:100%;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+
+ul{
+    text-align: center;
+    width: fit-content;
+}
+hr{
+    color: black;
+}
+footer{
+color:rgba(78, 77, 77, 0.788);
+}
+ul, ol{/*my lists weren't centering correctly until I used display:inline-block.*/
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+a:link {
+    color: blue;
+}
+a:visited {
+    color: purple;
+}
+a:link:hover {
+    color: green;
+}
+a:visited:hover {
+    color: red;
+}
+/* this changes the color of my github and linkedin links based on whether they have been visited or hovered on.*/
